@@ -1,5 +1,4 @@
 import pytest
-import toml
 
 from analysis.config import Config
 

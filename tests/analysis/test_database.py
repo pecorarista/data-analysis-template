@@ -1,9 +1,10 @@
-import psycopg2
-import pytest
 from typing import Generator
 
-from analysis.database import get_tablenames
+import psycopg2
+import pytest
+
 from analysis.config import Config
+from analysis.database import get_tablenames
 
 
 @pytest.fixture(scope='module', autouse=True)
