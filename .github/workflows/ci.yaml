@@ -2,7 +2,7 @@ name: Test
 on: push
 
 jobs:
-  container-job:
+  test-job:
     runs-on: ubuntu-latest
     services:
       postgres:
@@ -10,7 +10,7 @@ jobs:
         env:
           POSTGRES_PASSWORD: g#KoK0iYxF&525VJ65rG
           POSTGRES_USER: pecora
-          POSTGRES_DB: pecora
+          POSTGRES_DB: test
         options: >-
           --health-cmd pg_isready
           --health-interval 10s
