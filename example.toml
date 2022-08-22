@@ -4,3 +4,6 @@ password = 'g#KoK0iYxF&525VJ65rG'
 host = 'localhost'
 port = '5432'
 dbname = 'test'
+
+[storage]
+bucket_name = 'test'

@@ -4,14 +4,18 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-psycopg2-binary = "*"
 boto3 = "*"
+boto3-type-annotations = "*"
+jsonlines = "*"
+psycopg2-binary = "*"
 toml = "*"
 
 [dev-packages]
 flake8 = "*"
-isort = "*"
 ipython = "*"
+isort = "*"
+jsonschema = "*"
+moto = "*"
 pytest = "*"
 
 [requires]
