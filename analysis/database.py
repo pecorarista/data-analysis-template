@@ -9,6 +9,8 @@ def get_tablenames(uri: str, prefix: str) -> list[str]:
             pg_stat_user_tables
         where
             relname like '{prefix}%'
+        order by
+            relname
     '''
     with psycopg2.connect(uri) as conn:
         with conn.cursor() as cursor:
