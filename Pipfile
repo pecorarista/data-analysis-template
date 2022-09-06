@@ -9,6 +9,7 @@ boto3-type-annotations = "*"
 jsonlines = "*"
 psycopg2-binary = "*"
 toml = "*"
+aws-lambda-powertools = "*"
 
 [dev-packages]
 flake8 = "*"
